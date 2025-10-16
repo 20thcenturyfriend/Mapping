@@ -1,0 +1,12 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ExitApp">
+			<method name="ExitGame"/>
+		</type>
+		<type fullname="QRScanner">
+			<method name="PickImageFromGallery"/>
+			<method name="StartScanning"/>
+			<method name="StopScanning"/>
+		</type>
+	</assembly>
+</linker>
